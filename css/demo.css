@@ -338,7 +338,7 @@ nav li.active a  { cursor: default; }
 	background-image: url("../images/next-btn.png");
 }
 
-.flex-next{
+#slider1 .flex-next{
 	left: 10px;
 	background-image: url("../images/prev-btn.png");
 }
@@ -348,11 +348,11 @@ nav li.active a  { cursor: default; }
 
 #slider2 .flex-next {
     background: url(../images/blue-prev-btn.png) no-repeat;
-        left: 430px;
     width: 20px;
+	right: 25px;
 }
 #slider2 .flex-prev {
     background: url(../images/blue-next-btn.png)no-repeat;
-    right: 0px;
-    width: 18px;
+    right: 0;
+    width: 20px;
 }
